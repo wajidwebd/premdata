@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>AJAX -> API(Application Program Interface) -> Asynchronous Javascript And XML</h1>
+    <!-- <a href="./pythonlogo.png">dddd</a> -->
+     <h3 id="textpass"></h3>
+    <script>
+        let ajaxmethod = new XMLHttpRequest();
+        ajaxmethod.open("GET","userdata.json");
+        ajaxmethod.onload = function () {
+            let textpasscall = document.getElementById("textpass");
+            let stringremove = JSON.parse(this.responseText)
+            textpasscall.innerHTML = stringremove.name + stringremove.id 
+            console.log(stringremove);
+            
+        }
+
+        ajaxmethod.send()
+    </script>
+</body>
+</html>

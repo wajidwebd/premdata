@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} */
+.color{
+    /* three types of declarations */
+    /* 1. name */
+    /* hexvalue -> 0 to f */
+    /* rgb type */
+    /* color: green; */
+    /* color: #ffffff; */
+    /* 0 to 255*/
+    /* color: rgba(255, 0, 0,0.5); */
+
+    /*background-color: #00ff00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight:lighter;
+    font-style:italic;
+    font: 500 serif;
+    font-variant:calc(font-style);*/
+
+/* 
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+
+
+    
+}
+/* pseduo elments */
+/* ::selection{
+    background-color: orange;
+    color: green;
+} */
+/* .color:hover::before{
+    content: '\0040';
+}
+.color:hover{
+    color: green;
+    background-color: orange;
+} */
+
+/* .color::first-line{
+    font-size: 50px;
+    background-color: orange;
+} */
+ /* .particular{
+    color: orange;
+    font-size: 40px;
+ } */
+/* .ullist li{
+    list-style-type: none;
+} */
+/* .ullist li:hover::marker{
+    content: '\0040';
+    font-size: 50px;
+    color: orange;
+    font-weight: bold;
+} */
+ /* .input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid orange;
+ }
+.input::placeholder{
+    background-color: transparent;
+    color: orange;
+} */
+
+
+
+::selection{
+    background-color: blue;
+}

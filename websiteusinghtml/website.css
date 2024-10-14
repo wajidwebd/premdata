@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gridlayout{
+    width: 95%;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* ::selection{
+    user-select: none;
+} */
+
+/* ::selection{
+    color: white;
+    background-color: red;
+} */
+.headingmain{
+    display: flex;
+    gap: 40px;
+}
+.headermain li{
+    list-style-type: none;
+}
+.headermain li::first-letter{
+    font-size: 25px;
+    list-style-type: none;
+}
+/* .headingmain li:hover::marker{
+    content: '\268A';
+    font-size: 80px;
+    color: green;
+    list-style-type: none;
+} */
+.headingmain li a{
+    color: black;
+    text-decoration: none;
+}
+.headermain li a:hover{
+    color: orange;
+}
+.headermain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-top: 5px;
+}
+
+
+
+/* hero section*/
+
+.backgroundimage{
+    background: url(./bgimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 600px;
+}
+.herosectioncontent{
+    /* background-color: red; */
+    padding-top: 300px;
+}
+.herosectioncontent h1{
+    font-family: "Prosto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-family: Poppins; */
+    /* color -> three types ->name,hex decimal,and rgb values. */
+    /* 1. Name using color */
+    /* color:orange; */
+    /* 2. Hexa decimal values -> 0 to f ->0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f -> #000000 */
+    /* color: #ffffff; */
+    /* color: #ff0000; */
+    /* 3. RGB type -> 0 to 255*/
+    /* color: rgba(255, 0, 0,1) */
+    
+}
+/* .herosectioncontent h1::first-letter{
+    font-size: 50px;
+    color: red;
+    background-color: green;
+} */
+.herosectioncontent p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    width: 450px;
+    height: auto;
+    margin-bottom: 10px;
+    font-style: normal; 
+    background-color: red;
+}
+/* .herosectioncontent p::first-line{
+    color: orange;
+    font-size: 25px;
+} */
+ /* .herosectioncontent p:hover::before{
+    content: '\261B';
+    color: orange;
+    font-size: 25px;
+    
+}  */
+.herosectioncontent button{
+    border: none;
+    background-color: transparent;
+    border:  1px solid #E40645;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 20px 80px;
+}
+
+/* offer image */
+.offerimg{
+    width: 100%;
+    padding-top: 20px;
+}
+
+/* product section */
+.maincard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cardchild1{
+    flex-grow: 1;
+}
+.cardchild1 img{
+    width: 100%;
+}
+
+.sticking{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+/* Responsive using html and css. */
+
+/* mobile syntax*/
+
+@media screen and (max-width:500px) {
+    /*display:flex should be convert into display:block  */
+    /* width values should be adjust into 100%. */
+    /* margin and padding values need to adjust within the section */
+    /* font size -> p-> 10 or 12px heading->24px subheading ->16 or 18px*/
+    /* .headermain{
+        display: block;
+    } */
+    .headingmain{
+        gap: 10px;
+    }
+    .logo{
+        width: 50px;
+    }
+    .headerchildthree{
+        display: none;
+    }
+
+    /* hero section */
+    .herosectioncontent p{
+        width: 100%;
+        font-size: 12px;
+    }
+    .backgroundimage{
+        height: auto;
+    }
+    .herosectioncontent{
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+    .herosectioncontent h1{
+        font-size: 24px;
+    }
+    .herosectioncontent button{
+        font-size: 10px;
+        padding: 5px 20px;
+    }
+}
+
+/* ipad syntax*/
+
+@media (min-width:700px) and (max-width:850px){
+    /* width values should be adjust into 100%. */
+    /* margin and padding values need to adjust within the section */
+    /* font size -> p-> 10 or 12px heading->24px subheading ->16 or 18px*/
+    .backgroundimage{
+        height: 450px;
+    }
+    .herosectioncontent{
+        padding-top: 170px;
+    }
+}

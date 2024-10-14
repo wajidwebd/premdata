@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,20%);
+    grid-column-gap: 10px;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+}
+.red{
+    height: 150px;
+    background-color: red;
+    /* position: relative; */
+    /* animation-name: redbox;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s; */
+    /* animation-duration: 10s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: 2s; */
+}
+.blue{
+    height: 150px;
+    background-color: blue;
+
+}
+.green{
+    height: 150px;
+    background-color: green;
+}
+.orange{
+    height: 150px;
+    background-color: orange;
+}
+@keyframes redbox {
+    /* moving element with two methods */
+    /* from and to direction */
+    /* diagonal direction -> percentage value */
+    /* from{
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    to{
+        margin-top: 500px;
+        margin-left: 500px;
+        top: 500px;
+        left: 500px;
+    } */
+/* 
+    0%{
+        width: 150px;
+        height: 150px;
+        margin-top: 0;
+        margin-left: 0;
+        border-radius: 0%;
+
+    }
+    25%{
+        width: 350px;
+        height: 150px;
+        margin-top: 0;
+        margin-left: 500px;
+        border-radius: 0%;
+
+    }
+    50%{
+        width: 150px;
+        height: 150px;
+        margin-top: 500px;
+        margin-left: 500px;
+        border-radius: 0%;
+
+    }
+    75%{
+        width: 150px;
+        height: 150px;
+        margin-top: 500px;
+        margin-left: 0;
+        border-radius: 50%;
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+        margin-top: 0;
+        margin-left: 0;
+        border-radius: 0%;
+
+    } */
+}

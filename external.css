@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+#text{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.home{
+    color: blue;
+    font-size: 16px;
+}
+
+table{
+    border: 10px solid black;
+}
+th,td{
+    border: 1px solid green;
+}

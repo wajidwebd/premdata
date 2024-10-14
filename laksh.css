@@ -1,0 +1,142 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* position -> relative,absolute,fixed,sticky */
+.lakshmi{
+    /* position: relative;
+    top: 500px; */
+    /* position: absolute;
+    bottom: 0px;
+    right: 0; */
+    background-color: aquamarine;
+}
+
+/* .position{
+    background-color: orange;
+} */
+
+.relative{
+    /* position: relative;
+    background-color: aqua;
+    top: 100px;
+   right: 100px; */
+   /* position: absolute;
+   top: 200px;
+   left: 200px;
+   right: 200px;
+   bottom: 200px; */
+   background-color: aquamarine;
+   /* position: fixed;
+   bottom: 0;
+   right: 0; */
+   /* position: sticky;
+   top: 80%; */
+}
+/* .relative1{
+    background-color: red;
+    height: 100vh;
+}
+.relative2{
+    background-color: green;
+    height: 100vh;
+} */
+/* 
+.fixed1{
+    position: sticky;
+    background-color: blue;
+    left: 500px;
+    height: 5vh;
+}
+.fixed2{
+    position: fixed;
+    background-color: blueviolet;
+    height: 5vh;
+    top: 600px;
+    
+} */
+
+.mainBox{
+    background-color: orange;
+}
+.box1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+ }
+.box2{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 500px;
+ }
+ .box3{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+ }
+ .box4{
+    background-color: rgb(193, 40, 155);
+    height: 100px;
+
+    position: relative;
+    animation-name: pinkbox;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+ }
+
+.clamp{
+    width: clamp(10%, 50%, 80%); 
+    height: 200px;
+    background-color: red;
+}
+
+
+@keyframes pinkbox {
+    /*from and to direction  */
+    /* diagonal direction */
+    /* from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0;
+        left: 500px;
+    } */
+    /* 0%{
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        width: 100px;
+    }
+    25%{
+        top: 0;
+        left: 500px;
+        border-radius: 50%;
+        width: 100px;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+        border-radius: 0;
+        width: 100px;
+    }
+    75%{
+        left: 0;
+        top: 500px;
+        border-radius: 0;
+        width: 300px;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        width: 100px;
+    } */
+}
+

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.harish{
+    /* background-color: orange; */
+    /* padding: 100px; */
+    padding: 0px 0px 0px 60px;
+}
+.click{
+    background-color: orange;
+    /* margin: 100px; */
+    /* margin: 100px 10px; */
+    /* margin: 10px 0px 5px 5px; */
+    /* margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 60px; */
+    /* padding: 100px; */
+    /* padding: 10px 60px; */
+    /* padding: 15px 10px 15px 16px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px; */
+    /* padding: 100px; */
+}
+
+.second{
+    /* background-color: red; */
+}
+
+.main{
+    /* display: flex; */
+    /* gap: 20px;
+    justify-content: right; */
+    /* justify-content: space-evenly; */
+}
+/* 
+.card{
+width: 300px;
+padding:  10px;
+background-color: rgb(69, 255, 165);
+}
+.pythonlogo{
+width: 200px;
+}
+.button{
+background-color: orange;
+margin-top: 10px;
+padding: 15px 50px;
+border: none;
+}
+.content{
+    margin-top: 10px;
+} */
+
+.red{
+    background-color: red;
+    /* flex-basis: 25%;
+    flex-grow: 1; */
+}
+.blue{
+    background-color: blue;
+    /* flex-basis: 25%; */
+
+}
+.orange{
+    background-color: orange;
+    /* flex-basis: 25%; */
+    
+}
+.textmain{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.card{
+    background-color: brown;
+    flex-basis: 25%;
+    flex-grow: 1;
+    padding: 10px;
+}
+.cardimage{
+    width: 100%;
+}
+.maincard{
+
+}
